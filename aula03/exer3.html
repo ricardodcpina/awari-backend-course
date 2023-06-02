@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula-03</title>
+</head>
+
+<body>
+    <h1>PÁGINA QUE CALCULA SOMA</h1>
+    <input id="firstNum" type="text">
+    <input id="secondNum" type="text">
+    <button id="bt">Soma</button>
+</body>
+<script>
+
+    const soma = (a, b) => alert(a + b)
+
+    document.getElementById('bt').addEventListener("click", (e) => {
+        e.preventDefault()
+
+        const input_1 = Number(document.getElementById('firstNum').value)
+        const input_2 = Number(document.getElementById('secondNum').value)
+        // console.log(input_1, input_2, input_1 + input_2)
+        soma(input_1, input_2)
+    })
+
+</script>
+
+</html>
