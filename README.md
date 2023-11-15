@@ -50,7 +50,7 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 
 > [!IMPORTANT]
 > Crucial information necessary for users to succeed.
-> 
+
 > [!WARNING]
 > Critical content demanding immediate user attention due to potential risks.
 
