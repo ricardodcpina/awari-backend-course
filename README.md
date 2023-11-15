@@ -42,3 +42,10 @@ This site was built using [GitHub Pages](https://pages.github.com/).
 <hr>
 
 [Contribution guidelines for this project](docs/CONTRIBUTING.md)
+
+<hr>
+
+> [!NOTE]
+> Highlights information that users should take into account, even when skimming.
+
+
